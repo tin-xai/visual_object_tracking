@@ -6,6 +6,12 @@ The implemented scope is visual localization and local mapping. Object detection
 
 This is a research implementation reconstructed from the paper, not the authors' original code or a reproduction of its reported accuracy.
 
+## Demo
+
+![KITTI SLAM playback showing the camera feed, moving-feature removal, and estimated vehicle path](docs/assets/kitti_slam.gif)
+
+KITTI Raw drive 0052: all 78 frames processed. The cyan arrow shows estimated camera position and heading; red regions are excluded from localization. Gray points show the final reconstructed map. This is playback of a recorded vehicle sequence.
+
 ## 1. Install
 
 Run the commands below from the project root. Requirements: **Python 3.10+**, `curl` and `unzip` for the download commands, and **FFmpeg** for rendering playback videos.
